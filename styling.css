@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
 body {font-family: sans-serif;
 
     width: 1024px;
@@ -12,23 +19,26 @@ body {font-family: sans-serif;
 /*-------------------------------*/
 
 header {
-    background-color: aqua;
+    background-color: rgb(180, 248, 248);
     width: 100%;
     
+    float: left;
 }
 
 .site-name{
 
-    float: left;
-    
+    float:left;
+    padding-top: 10px;
 
 }
 
 .main-nav{
-float: left;
-background-color: blueviolet;
-list-style: none;
-
+    float: left;
+    background-color: blueviolet;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom:15px;
+    padding-right:40px;
 
 }
 
@@ -36,6 +46,7 @@ list-style: none;
     
     display: inline-block;
     margin-left: 40px;
+   
   
 }
 
@@ -55,33 +66,33 @@ list-style: none;
     float: left;
     width: 75%;
     background-color: rosybrown;
+    height: 580 px;
+    
     
 }
 
 .mainheader{
-    
-    margin-left: 20px;
+   
+    padding: 20px;
 
 }
 
 .text{
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 10px;
 }
 
 .article1{
-float: left;
-width: 45%;
-margin-left: 20px;
-
+    float: left;
+    width: 50%;
+    padding: 40px;
 
 }
 
 .article2{
-float: right;
-width: 45%;
-margin-right: 20px;
+    float: right;
+    width: 50%;
+    padding: 40px;
 
 }
 
@@ -89,18 +100,19 @@ margin-right: 20px;
     
     float: left;
     width: 25%;
+    padding: 15px;
     background-color: rgb(137, 187, 137);
-    
+    height: 793px;
 }
 
 .nations{
-margin-left: 20px;
 
+    padding: 20px;
 }
 
 .cities{
-margin-left: 20px;
 
+    padding: 20px;
 
 }
 
@@ -119,5 +131,6 @@ footer{
     text-align: center;
     background-color: rgb(240, 200, 223);
     clear: both;
+    padding: 10px;
 }
 
